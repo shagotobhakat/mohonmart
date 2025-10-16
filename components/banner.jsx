@@ -1,12 +1,11 @@
 "use client";
 import { useState } from "react";
 import { Carousel, Container } from "react-bootstrap";
+import Image from "next/image";
 import styles from "@/components/banner.module.css";
-import Image from "next/legacy/image";
 import banner1 from "@/public/banner1.jpg";
 import banner2 from "@/public/banner2.jpg";
 import banner3 from "@/public/banner3.jpg";
-
 import BannerTextOne from "./bannerTextOne";
 import BannerTextTwo from "./bannerTextTwo";
 import BannerTextThree from "./bannerTextThree";
@@ -22,22 +21,26 @@ export default function Banner() {
   return (
     <Container className={styles.banner} fluid>
       <Carousel
+        fade
+        slide
+        interval={5000}
+        activeIndex={activeIndex}
+        onSelect={handleSelect}
         nextIcon={false}
         prevIcon={false}
-        fade={true}
-        slide={true}
-        interval={5000}
-        onSelect={handleSelect}
-        activeIndex={activeIndex}>
-        <Carousel.Item className={styles.bannerPic}>
-          <Image
-            src={banner1}
-            layout="responsive"
-            height={0.95}
-            width={2}
-            alt="slider"
-            priority
-          />
+      >
+        <Carousel.Item className={styles.bannerItem}>
+          <div className={styles.imageWrapper}>
+            <Image
+              src={banner1}
+              alt="Banner Slide 1"
+              fill
+              priority
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <div className={styles.overlay}></div>
+
           <Carousel.Caption className={styles.carouselCaption}>
             <div className={styles.bannerText}>
               <BannerTextOne triggerKey={activeIndex === 0 ? "slide1" : ""} />
@@ -49,14 +52,17 @@ export default function Banner() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className={styles.bannerPic}>
-          <Image
-            src={banner2}
-            layout="responsive"
-            height={0.95}
-            width={2}
-            alt="slider"
-          />
+        <Carousel.Item className={styles.bannerItem}>
+          <div className={styles.imageWrapper}>
+            <Image
+              src={banner2}
+              alt="Banner Slide 2"
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <div className={styles.overlay}></div>
+
           <Carousel.Caption className={styles.carouselCaption}>
             <div className={styles.bannerText}>
               {activeIndex === 1 && <BannerTextTwo triggerKey={activeIndex} />}
@@ -70,14 +76,17 @@ export default function Banner() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item className={styles.bannerPic}>
-          <Image
-            src={banner3}
-            layout="responsive"
-            height={0.95}
-            width={2}
-            alt="slider"
-          />
+        <Carousel.Item className={styles.bannerItem}>
+          <div className={styles.imageWrapper}>
+            <Image
+              src={banner3}
+              alt="Banner Slide 3"
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <div className={styles.overlay}></div>
+
           <Carousel.Caption className={styles.carouselCaption}>
             <div className={styles.bannerText}>
               {activeIndex === 2 && (

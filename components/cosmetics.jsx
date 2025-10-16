@@ -134,7 +134,7 @@ export default function Cosmetics() {
             </div>
           </Col>
         </Row>
-        <Container style={{ marginTop: "60px" }} className="showContain">
+        <Container style={{ marginTop: "40px" }} className="showContain">
           <Row>
             <Col lg={10} md={8} sm={6} xs={6}>
               <div

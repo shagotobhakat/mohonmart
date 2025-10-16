@@ -15,9 +15,9 @@ export default function Proprietor() {
               <div data-aos="zoom-in" className={Style.one}>
                 <div className="card shadow">
                   <Image
-                    height={270}
-                    width={230}
-                    layout="intrinsic"
+                    fill
+                    priority
+                    style={{ objectFit: "cover" }}
                     src="/proprietor.jpg"
                     alt="EHAN"
                   />

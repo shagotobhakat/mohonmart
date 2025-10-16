@@ -1,98 +1,100 @@
 .banner {
   margin-top: 100px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
-.bannerPic {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 1;
+.bannerItem {
   position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 41, 41, 0.68);
+  z-index: 1;
 }
 
 .carouselCaption {
   position: absolute;
   top: 0;
   left: 0;
-  height:100%;
-  width:100%;
-  padding: 180px 100px;
-  background: #002929ac;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.bannerText {
+  position: relative;
+  z-index: 3;
 }
 
 .carouselCaption p {
   color: white;
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 400;
+  margin-top: 10px;
 }
+
 
 @media (min-width: 722px) and (max-width: 1024px) {
   .banner {
     margin-top: 78px;
   }
 
-  .carouselCaption {
-    padding: 100px 30px;
+  .bannerItem {
+    height: 40vh;
   }
 
-  .bannerHead {
-    color: white;
-    font-size: 25px;
-    font-weight: 400;
+  .carouselCaption p {
+    font-size: 24px;
   }
 }
 
-@media (min-width: 576px) and (max-width: 721px) {
+@media (min-width: 531px) and (max-width: 721px) {
   .banner {
     margin-top: 80px;
   }
 
-  .bannerPic {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bannerHead {
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-  }
-
-  .carouselCaption {
-    padding: 5px;
-    line-height: 5px;
+  .bannerItem {
+    height: 40vh;
   }
 
   .carouselCaption p {
-    font-size: 10px;
+    font-size: 18px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 530px) {
   .banner {
     margin-top: 88px;
   }
 
-  .bannerPic {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bannerHead {
-    color: white;
-    font-size: 10px;
-    font-weight: 400;
-  }
-
-  .carouselCaption {
-    padding: 50px 0px;
-    line-height: 5px;
+  .bannerItem {
+    height: 30vh;
   }
 
   .carouselCaption p {
-    font-size: 15px;
-    padding-top:5px;
+    font-size: 16px;
   }
 }
