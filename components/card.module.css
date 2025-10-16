@@ -1,0 +1,43 @@
+.filter {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.leftOne {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1B7434;
+    text-align: left;
+}
+
+.leftTwo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1B7434;
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+    .card {
+        padding: 25px 10px;
+    }
+}
+
+@media (min-width: 575.98px) and (max-width: 767px) {
+    .body {
+        padding: 20px 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .card {
+        padding: 20px 12px;
+    }
+
+}

@@ -1,0 +1,51 @@
+.main {
+    background-color: #1B7434;
+}
+
+.body {
+    padding: 60px;
+}
+
+.head {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.text {
+    padding-top: 50px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 988px) {}
+
+@media (min-width: 575.98px) and (max-width: 767px) {
+    .body {
+        padding: 30px 0px;
+    }
+
+    .text {
+        padding-top: 30px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .body {
+        padding: 30px 20px;
+    }
+
+    .text {
+        padding-top: 30px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+}

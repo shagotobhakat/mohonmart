@@ -1,0 +1,18 @@
+.productDetails {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.rightText h5 {
+  font-size: 25px;
+  font-weight: 400;
+  color:#1B7434;
+}
+
+.btn {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 0px;
+  padding: 0px 100px;
+}

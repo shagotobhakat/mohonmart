@@ -1,0 +1,98 @@
+.banner {
+  margin-top: 100px;
+}
+
+.bannerPic {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+}
+
+.carouselCaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width:100%;
+  padding: 180px 100px;
+  background: #002929ac;
+}
+
+.carouselCaption p {
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+@media (min-width: 722px) and (max-width: 1024px) {
+  .banner {
+    margin-top: 78px;
+  }
+
+  .carouselCaption {
+    padding: 100px 30px;
+  }
+
+  .bannerHead {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 721px) {
+  .banner {
+    margin-top: 80px;
+  }
+
+  .bannerPic {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bannerHead {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .carouselCaption {
+    padding: 5px;
+    line-height: 5px;
+  }
+
+  .carouselCaption p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .banner {
+    margin-top: 88px;
+  }
+
+  .bannerPic {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bannerHead {
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .carouselCaption {
+    padding: 50px 0px;
+    line-height: 5px;
+  }
+
+  .carouselCaption p {
+    font-size: 15px;
+    padding-top:5px;
+  }
+}

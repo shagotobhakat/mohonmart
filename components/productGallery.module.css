@@ -1,0 +1,132 @@
+.bar{
+    margin-top: 200px;
+    background-color:#1B7434;
+    padding:10px 10px;
+    width:100%;
+}
+
+.search {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.searchInput {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+
+}
+
+.searchInput {
+    padding: 0 10px;
+    width: 550px;
+    caret-color: #1B7434;
+    font-size: 21px;
+    font-weight: 300;
+    color: black;
+    transition: all linear 0.3s;
+}
+
+.searchIcon:hover {
+    background: #536bf6;
+    color: white;
+    cursor: pointer;
+}
+
+.searchIcon {
+transition: all linear 0.3s;
+    height: 50px;
+    width: 50px;
+    float: right;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1B7434;
+}
+
+.accordion{
+    margin: 50px 0px;
+}
+
+.filterOne{
+    margin: 20px 0px;
+    padding: 10px;
+    border-bottom: 2px solid #1B7434;
+}
+
+.filter {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+.left{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1B7434;
+    text-transform: uppercase;
+    text-align: left;
+    cursor: pointer;
+}
+
+.rightOne {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1B7434;
+    text-transform: uppercase;
+    text-align: right;
+    cursor: pointer;
+}
+
+.leftOne {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1B7434;
+    text-align: left;
+}
+
+.leftTwo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1B7434;
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    cursor: pointer;
+}
+
+.head{
+    background-color:#1B7434;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card{
+    padding: 30px 20px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .searchInput {
+        padding: 0 10px;
+        width: 235px;
+    }
+
+    .card {
+    margin-top: 50px;
+    }
+
+}

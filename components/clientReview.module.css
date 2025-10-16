@@ -1,0 +1,79 @@
+.main {
+    padding-top: 50px;
+}
+
+.head {
+   text-align: center;
+   color: #1B7434;
+   font-size: 40px;
+   font-weight: 700;
+   padding-bottom: 50px;
+}
+
+.swiperWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.mySwiper {
+    width: 600px;
+    max-width: 90vw;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.cardBox {
+    background: #fff;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+  color: #1B7434;
+  font-size: 22px;
+  font-weight: 700;
+  padding:30px 0px;
+}
+
+.left {
+    height: 100%;
+    width: 100%;
+    background-color: #1B7434;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+    background-color: #1B7434;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+@media (max-width: 768px) {
+    .mySwiper {
+        width: 90%;
+    }
+
+    .text {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .head {
+        font-size: 35px;
+    }
+
+    .text {
+        font-size: 0.95rem;
+    }
+
+}
