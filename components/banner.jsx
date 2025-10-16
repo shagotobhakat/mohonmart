@@ -10,7 +10,7 @@ import banner3 from "@/public/banner3.jpg";
 import BannerTextOne from "./bannerTextOne";
 import BannerTextTwo from "./bannerTextTwo";
 import BannerTextThree from "./bannerTextThree";
-import AnimatedParagraph from "./AniParagraph";
+import AnimatedParagraph from "./aniParagraph";
 
 export default function Banner() {
   const [activeIndex, setActiveIndex] = useState(0);
