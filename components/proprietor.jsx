@@ -18,8 +18,8 @@ export default function Proprietor() {
                     fill
                     priority
                     style={{ objectFit: "cover" }}
-                    src="/proprietor.jpg"
-                    alt="EHAN"
+                    src="/proprietor.png"
+                    alt="MohonMart"
                   />
                   <div className="ribbon">
                     <div className="ribbon-stitches-top"></div>

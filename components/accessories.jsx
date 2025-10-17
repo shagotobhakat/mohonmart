@@ -22,7 +22,7 @@ export default function Accessories() {
           </Col>
           <Col className={style.card} lg={3} md={6}>
             <div className="gal-image" data-aos="zoom-in">
-              <Link href="/products/men">
+              <Link href="/details">
                 <Image
                   src="/category1.png"
                   alt="image alt"
@@ -40,9 +40,9 @@ export default function Accessories() {
                 </Col>
                 <Col lg={6} md={6} sm={6} xs={6}>
                   <div className={style.right}>
-                    <Button href="/details" variant="outline-dark">
-                      Details
-                    </Button>
+                    <Link href="/details">
+                      <Button variant="outline-dark">Details</Button>
+                    </Link>
                   </div>
                 </Col>
               </Row>
@@ -50,7 +50,7 @@ export default function Accessories() {
           </Col>
           <Col className={style.card} lg={3} md={6}>
             <div className="gal-image" data-aos="zoom-in">
-              <Link href="/products/women">
+              <Link href="/details">
                 <Image
                   src="/category1.png"
                   alt="image alt"
@@ -68,9 +68,9 @@ export default function Accessories() {
                 </Col>
                 <Col lg={6} md={6} sm={6} xs={6}>
                   <div className={style.right}>
-                    <Button href="/details" variant="outline-dark">
-                      Details
-                    </Button>
+                    <Link href="/details">
+                      <Button variant="outline-dark">Details</Button>
+                    </Link>
                   </div>
                 </Col>
               </Row>
@@ -78,7 +78,7 @@ export default function Accessories() {
           </Col>
           <Col className={style.card} lg={3} md={6}>
             <div className="gal-image" data-aos="zoom-in">
-              <Link href="/products/boys">
+              <Link href="/details">
                 <Image
                   src="/category1.png"
                   alt="image alt"
@@ -96,9 +96,9 @@ export default function Accessories() {
                 </Col>
                 <Col lg={6} md={6} sm={6} xs={6}>
                   <div className={style.right}>
-                    <Button href="/details" variant="outline-dark">
-                      Details
-                    </Button>
+                    <Link href="/details">
+                      <Button variant="outline-dark">Details</Button>
+                    </Link>
                   </div>
                 </Col>
               </Row>
@@ -106,7 +106,7 @@ export default function Accessories() {
           </Col>
           <Col className={style.card} lg={3} md={6}>
             <div className="gal-image" data-aos="zoom-in">
-              <Link href="/products/girls">
+              <Link href="/details">
                 <Image
                   src="/category1.png"
                   alt="image alt"
@@ -124,9 +124,9 @@ export default function Accessories() {
                 </Col>
                 <Col lg={6} md={6} sm={6} xs={6}>
                   <div className={style.right}>
-                    <Button href="/details" variant="outline-dark">
-                      Details
-                    </Button>
+                    <Link href="/details">
+                      <Button variant="outline-dark">Details</Button>
+                    </Link>
                   </div>
                 </Col>
               </Row>

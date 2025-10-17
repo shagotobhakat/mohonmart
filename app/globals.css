@@ -255,6 +255,7 @@ img {
 .carousel-caption {
   padding-top: 0.2rem;
   padding-bottom: 1rem;
+  left: 0% !important;
 }
 
 /*----------- banner part end ------------*/

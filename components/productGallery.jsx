@@ -327,7 +327,7 @@ export default function ProductGallery() {
                 <Row>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category1.png"
                           alt="image alt"
@@ -345,9 +345,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -355,7 +355,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category1.png"
                           alt="image alt"
@@ -373,9 +373,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -383,7 +383,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category1.png"
                           alt="image alt"
@@ -401,9 +401,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -411,7 +411,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category2.png"
                           alt="image alt"
@@ -429,9 +429,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -439,7 +439,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category2.png"
                           alt="image alt"
@@ -457,9 +457,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -467,7 +467,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category2.png"
                           alt="image alt"
@@ -485,9 +485,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -495,7 +495,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category3.png"
                           alt="image alt"
@@ -513,9 +513,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -523,7 +523,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category3.png"
                           alt="image alt"
@@ -541,9 +541,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
@@ -551,7 +551,7 @@ export default function ProductGallery() {
                   </Col>
                   <Col className={Style.card} lg={4} md={6}>
                     <div className="gal-image" data-aos="zoom-in">
-                      <Link href="/products/men">
+                      <Link href="/details">
                         <Image
                           src="/category3.png"
                           alt="image alt"
@@ -569,9 +569,9 @@ export default function ProductGallery() {
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
                           <div className={Style.right}>
-                            <Button href="/details" variant="outline-dark">
-                              Details
-                            </Button>
+                            <Link href="/details">
+                              <Button variant="outline-dark">Details</Button>
+                            </Link>
                           </div>
                         </Col>
                       </Row>
