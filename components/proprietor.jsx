@@ -17,7 +17,7 @@ export default function Proprietor() {
                   <Image
                     fill
                     priority
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: "cover", borderRadius: "10px" }}
                     src="/proprietor.png"
                     alt="MohonMart"
                   />

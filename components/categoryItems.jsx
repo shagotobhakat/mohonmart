@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function CategoryItems() {
   return (
     <>
-      <Container className="galleryone">
+      <Container className="gallerycategory">
         <Row>
           <Col lg={12}>
             <div className="gal-head-one">

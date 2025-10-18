@@ -284,6 +284,10 @@ img {
   font-weight: 700;
 }
 
+.gallerycategory {
+  margin-top: 80px;
+}
+
 .galleryone {
   margin-top: 40px;
 }
@@ -1635,7 +1639,7 @@ body::-webkit-scrollbar-thumb {
 /* Loader circular container */
 .loader-wrapper {
   position: relative;
-  width: 180px;
+  width: 230px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   background-color: #0004;
