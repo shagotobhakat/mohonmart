@@ -1622,14 +1622,13 @@ body::-webkit-scrollbar-thumb {
 
 /*----------- loader part start -------------*/
 
-/* Fullscreen dark background */
 .loading-fullscreen {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #0E0014;
+  background-color: #0e0014;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1647,25 +1646,41 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* 🌟 outer glow restored */
   box-shadow:
     0 0 40px 10px #ff0095ee,
     0 0 80px 30px #ff0077cc,
     0 0 120px 40px #ff00aa66;
 }
 
-/* Centered loading text */
+/* Center content */
 .loader-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Figtree", sans-serif;
-  font-size: 1.6em;
   font-weight: 600;
+  text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
   z-index: 3;
+}
+
+/* 🔹 Image row */
+.loader-image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🔹 Text row */
+.loader-text-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
 
 /* Rotating glowing inner circle */
@@ -1784,6 +1799,14 @@ body::-webkit-scrollbar-thumb {
   animation-delay: 0.6s;
 }
 
+.loader-letter:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+.loader-letter:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
 @keyframes loader-letter-anim {
 
   0%,
@@ -1802,6 +1825,7 @@ body::-webkit-scrollbar-thumb {
     transform: translateY(0px) scale(1.05) rotate(10deg);
   }
 }
+
 
 
 /*----------- loader part end -------------*/
